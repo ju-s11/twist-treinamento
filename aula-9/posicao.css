@@ -1,0 +1,55 @@
+/* aula 9 - dia 25/07/2024. segundo arquivo CSS. */
+
+#container {
+    /*overflow: auto;*/
+}
+
+div.relativa { /*não sobrepõe outros elementos na tela.*/
+    width: 200px;
+    height: 200px;
+    background-color: rgb(243, 207, 198);
+    color: rgb(218, 112, 214);
+    text-align: center;
+    text-decoration: overline;
+    font-size: larger;
+    font-style: oblique;
+    font-family: monospace;
+    position: relative;
+    top: 30px;
+    left: 350px;
+    margin: 3px;
+    display: flex;
+}
+
+div.absoluta { /*tem uma posição absoluta na tela e nunca sairá desta.*/
+    width: 150px;
+    height: 300px;
+    background-color: rgb(201, 169, 166);
+    color: rgb(248, 200, 220);
+    font-size: small;
+    font-style: italic;
+    font-family: times;
+    text-decoration: none;
+    position: absolute;
+    top: 150px; /*0px (original)*/
+    left: 0px;
+    margin: 10px;
+    display: flex;
+}
+
+div.fixa { /*tem uma posição fixa (parece um pop-up).*/
+    width: 300px;
+    height: 150px;
+    background-color: rgb(248, 200, 220);
+    color: plum;
+    font-family: lucida sans;
+    font-style: oblique;
+    text-decoration: wavy;
+    font-size: medium;
+    position: fixed;
+    top: 50px;
+    left: 200px;
+    display: flex;
+}
+
+/* tons de rosa (paleta de cores): https://htmlcolorcodes.com/colors/shades-of-pink/ */
