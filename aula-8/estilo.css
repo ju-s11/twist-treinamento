@@ -1,0 +1,152 @@
+#header {
+    padding: 2%;
+    background-color: green;
+
+}
+
+#navigator {
+    margin: 0%;
+    background-color: rgb(174, 236, 174);
+    padding: 0.5%;
+}
+
+#main {
+    margin: 0%;
+    background-color: rgb(174, 236, 174);
+    padding: 1%;
+    overflow: hidden;
+}
+
+#footer {
+    padding: 2%;
+    background-color: rgb(174, 236, 174);
+    margin: 0%;
+}
+
+article {
+    width: 15%; /*100px*/
+    height: 15%; /*100px*/
+    display: inline-block;
+    background-color: lightgreen;
+    margin: 1%;
+    padding: 1%;
+    /* box-sizing: border-box; */
+    /* display: table-cell; */
+    vertical-align: top; /*middle*/
+}
+
+#visivel {
+    overflow: visible;
+}
+
+#invisivel {
+    overflow: hidden;
+}
+
+#scroll {
+    overflow: scroll;
+}
+
+#auto {
+    overflow: auto;
+}
+
+#herdado {
+    overflow: inherit;
+}
+
+/*o inherit herda a configuração do elemento acima (do elemento pai). a configuração de overflow da main, neste caso. quando não é especificado a configuração do overflow fica como "visible".*/
+
+
+/* ajeitando imagem - estilização da juia :)
+
+verde pastel: rgb(175, 225, 175). usar depois... OK
+
+outro verde: rgb(95, 133, 117) OK
+
+*/
+figure {
+    text-align: center;
+    display: inline-block;
+    padding: 20px;
+}
+
+img.index {
+    border: 5px  rgb(80, 200, 120) solid;
+    border-radius: 10%;
+    padding: 5px;
+    width: 25%;
+    height: 25%;
+}
+
+html {
+    background-color: green;
+}
+
+/*voltando a aula... :)*/
+
+p.col {
+    columns: 3; /*determinando uma número de colunas.*/
+    column-gap: 2%; /*craindo uma distância entre as colunas (um espaço entre elas).*/
+    column-rule: 2px darkolivegreen solid; /*criando uma separação entre as colunas.*/
+
+}
+
+#texto1 {
+    -moz-column-rule: 3px darkgreen solid; /* estilização por browser: a página terá uma aparência específica para cada navegador.*/
+    -moz-column-gap: 5px; /*mozilla*/
+    -moz-columns: 2;
+
+    -webkit-column-rule: 2px darkolivegreen solid; /*chrome*/
+    -webkit-column-gap: 10px;
+    -webkit-columns: 4;
+}
+
+#caixa1 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(80, 200, 120);
+    border-radius: 10px 50px 50px 10px;
+    margin: 2%;
+    box-shadow: 10px 10px rgb(79, 121, 66); /*efeito shadow opaco.*/
+}
+
+#caixa2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(80, 200, 120);
+    border-radius: 25px;
+    margin: 2%;
+    box-shadow: 10px 10px 5px rgb(79, 121, 66); /*efeito shadow blurry, espaçado.*/
+}
+
+img.tamanho { /*criando o efeito polaroid para uma imagem.*/
+    width: 90%;
+    height: 90%;
+    margin: 0%;
+}
+
+figure.polaroid {
+    width: 210px;
+    height: 280px;
+    text-align: center;
+    margin: 5%;
+    box-shadow: 5px 5px 5px rgba( 0, 0, 0, 0.5);
+    background-color: #fff;
+    padding-bottom: 10px;
+
+}
+
+figcaption.legenda {
+    padding: 5px;
+    background-color: #fff;
+    margin-top: 0%;
+}
+
+#texto {
+    font-family: verdana;
+    font-size: 20pt;
+    color: rgb(174, 236, 174);
+    text-shadow: 1px 1px 2px #000, 0 0 5px darkcyan, 0 0 25px rgb(95, 133, 117);
+
+}
